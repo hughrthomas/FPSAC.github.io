@@ -7,7 +7,7 @@ title: Conferences
 
 {% assign current_year  = "now" | date: "%Y" %}
 {% assign current_year  = current_year  | plus:0 %}
-{% assign current_month = "now" | date: "%-m" %}
+{% assign current_month = "now" | date: "%m" %}
 {% assign current_month = current_month | plus:0 %}
 
 <ul>
